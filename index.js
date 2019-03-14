@@ -28,9 +28,12 @@ function iLoveTheBeatles(n) { //accepts number as parameter
         n++;    //add this string to empty array
     } while (n < 15); 
     //only add the string while the given parameter is less than 15
-    return beatles;
+    return beatlves;
 }
 
 
 
 //this lab gave me a run for my money, thank god for google
+/*
+
+*/
