@@ -28,12 +28,17 @@ function iLoveTheBeatles(n) { //accepts number as parameter
         n++;    //add this string to empty array
     } while (n < 15); 
     //only add the string while the given parameter is less than 15
-    return beatlves;
+    return beatles;
 }
 
 
 
 //this lab gave me a run for my money, thank god for google
 /*
-
+things that took me a while to figure out: 
+  - the return statement needs to be outside of the loop, otherwise the loop with be ended 
+  - I simply needed to return the updated empty array
+  - the point of the loop was to update the empty array 
+  - make sure my "{}" are in the right place 
+  - for the while loop, define the i prior to loop 
 */
